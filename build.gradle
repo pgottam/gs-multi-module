@@ -35,7 +35,7 @@ bootJar {
 	enabled = false
 }
 
-task buildDevJar(type: GradleBuild) {
-     group 'application'
-     setTasks([':application:clean', ':library:clean',':application:buildDev',':library:build'])
-}
+// task buildDevJar(type: GradleBuild) {
+//      group 'application'
+//      setTasks([':application:clean', ':library:clean',':application:buildDev',':library:build'])
+// }
