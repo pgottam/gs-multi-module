@@ -13,3 +13,18 @@ bootJar {
 	enabled = true
 }
 
+// task buildDev(type: GradleBuild) {
+//      group 'app'
+// 	 setTasks(['copyFiles'])
+
+// }
+
+// task copyFiles {
+//    group 'build app'
+//    doLast {
+//         copy {
+//             from "${rootDir}/application/dist/"
+//             into "${rootDir}/library/dist"
+//         }
+//    }    
+// }
